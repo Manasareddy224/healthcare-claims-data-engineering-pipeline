@@ -1,0 +1,5 @@
+provider_id,provider_name,specialty,state
+P001,HealthCare Clinic,Primary Care,TX
+P002,Wellness Pharmacy,Pharmacy,CA
+P003,City Hospital,Emergency,NY
+P004,Family Care Center,Primary Care,TX

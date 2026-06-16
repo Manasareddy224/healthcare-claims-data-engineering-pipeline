@@ -1,0 +1,6 @@
+member_id,member_name,dob,gender,state,member_status
+M001,John Smith,1985-04-12,M,TX,Active
+M002,Sarah Johnson,1990-08-21,F,CA,Active
+M003,David Lee,1978-11-03,M,NY,Inactive
+M004,Emily Davis,2001-02-15,F,TX,Active
+M005,Robert Brown,1965-06-30,M,FL,Inactive
