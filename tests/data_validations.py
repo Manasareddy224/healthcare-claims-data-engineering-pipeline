@@ -95,6 +95,26 @@ try:
     print("✓ Claim amount validation passed")
 
     # --------------------------------------------------
+    # Paid Amount Validation
+    # --------------------------------------------------
+    print("\nPAID AMOUNT VALIDATION")
+
+    invalid_paid = silver_claims[
+    silver_claims["amount_paid"] >
+    silver_claims["claim_amount"]
+    ]
+
+    print(
+    "Invalid Paid Amount Records :",
+    len(invalid_paid)
+   )
+
+    assert len(invalid_paid) == 0, \
+    "Paid amount exceeds claim amount"
+
+    print("✓ Paid amount validation passed")
+
+    # --------------------------------------------------
     # Missing Record Validation
     # --------------------------------------------------
 
@@ -191,5 +211,6 @@ except Exception as e:
 finally:
 
     print("\nValidation Execution Finished")
+
 
     print("=" * 60)
