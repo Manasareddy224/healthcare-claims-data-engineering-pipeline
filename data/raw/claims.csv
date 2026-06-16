@@ -1,7 +1,7 @@
-claim_id,member_id,provider_id,claim_amount,claim_status
-C001,M001,P001,250,Paid
-C002,M002,P002,450,Paid
-C003,M003,P003,300,Denied
-C004,M004,P004,700,Paid
-C005,M005,P002,150,Pending
-C006,M001,P001,250,Paid
+claim_id,member_id,provider_id,claim_amount,claim_status,amount_paid
+C001,M001,P001,250,Paid,250
+C002,M002,P002,450,Paid,450
+C003,M003,P003,300,Denied,0
+C004,M004,P004,700,Paid,700
+C005,M005,P002,150,Pending,200
+C006,M001,P001,250,Paid,300

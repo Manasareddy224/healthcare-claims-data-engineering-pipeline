@@ -8,7 +8,7 @@ os.makedirs("data/silver/claims_cleaned", exist_ok=True)
 members_df = pd.read_csv("data/bronze/members/members_bronze.csv")
 providers_df = pd.read_csv("data/bronze/providers/providers_bronze.csv")
 claims_df = pd.read_csv("data/bronze/claims/claims_bronze.csv")
-
+ 
 claims_df = claims_df.drop_duplicates()
 claims_df = claims_df[claims_df["claim_amount"] > 0]
 
